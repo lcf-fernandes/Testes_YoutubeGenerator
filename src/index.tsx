@@ -157,7 +157,24 @@ fontSize: "16px",
               }
               ],
 
-            functions:[()=>{}],            childrenItems:[() =><></>],
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#c4302b",
+}`
+          ],
+
+          children: [
+            `Sobre o que você quer falar?`
+          ],
+
+          args,
+
+        }}/>],
 
             args,
           }}/>
