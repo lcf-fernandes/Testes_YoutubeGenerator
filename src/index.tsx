@@ -188,7 +188,7 @@ color: "#c4302b",
 
           funcsArray: [async (...args) =>
         functions.setVar({ args, pass:{
-          keyPath: [`tema`],
+          keyPath: [`all.inputs.title`],
           value: [`$arg_callback`]
         }})],
 
