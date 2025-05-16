@@ -384,8 +384,8 @@ color: "#c4302b",
             elementsProperties:['{}'],
 
             styles:[`{
-width: "5px",
-height: "5px",
+width: "15px",
+height: "15px",
 borderWidth: "1px",
 }`],
 
