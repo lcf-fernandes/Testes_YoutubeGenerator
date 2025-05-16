@@ -158,7 +158,11 @@ fontSize: "16px",
               }
               ],
 
-            functions:[()=>{}],            childrenItems:[
+            functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [()=>"all.toogles.titleBox"]
+ , trigger: 'on listen'
+}})],            childrenItems:[
         (...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
