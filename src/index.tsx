@@ -189,7 +189,7 @@ color: "#c4302b",
           funcsArray: [async (...args) =>
         functions.setVar({ args, pass:{
           keyPath: [`tema`],
-          value: ['no value']
+          value: [`temp.tema`]
         }})],
 
           args,
