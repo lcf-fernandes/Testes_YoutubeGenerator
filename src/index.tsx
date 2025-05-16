@@ -304,6 +304,7 @@ color: "#c4302b",
             args,
           }}/>
         , 
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -344,6 +345,64 @@ color: "#c4302b",
 
             args,
           }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [() =>"all.toogles.hashtagBox"]
+ , trigger: 'on listen'
+}})],            childrenItems:[
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#c4302b",
+}`
+          ],
+
+          children: [
+            `Criar Hashtags?`
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.IptTxtEdit pass={{
+          propsArray: [{}],
+
+          stylesArray: [{
+                color: 'black',
+                fontSize: 14,
+                // fontSize: '20px',<= #ATTENTION: Native ERROR! No string!
+              }],
+
+          path: [" "],
+
+          funcsArray: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [`all.inputs.title`],
+          value: [`$arg_callback`]
+        }})],
+
+          args,
+        }}/>],
+
+            args,
+          }}/>
         ],
 
             args,
@@ -370,7 +429,8 @@ color: "#c4302b",
 'lst2': [{name: "Tarefa 1", date: "21/03/25"},{name: "Tarefa 2", date: "21/03/25"},{name: "Tarefa 3", date: "24/03/25"}], 'lst3': [{name: "Task 1"},{name: "Task 2"}] } 
 , 
 'name': "Name:", 
-'dataToSet': {name: "Carlos", phone: "1111"}, 'toogles': { 'titleBox': true } 
+'dataToSet': {name: "Carlos", phone: "1111"}, 'toogles': { 
+'titleBox': true, 'hashtagBox': true } 
  } 
  
 } 
