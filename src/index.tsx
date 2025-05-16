@@ -280,7 +280,7 @@ color: "#c4302b",
  arrFunctions: [async (...args) =>
         functions.setVar({ args, pass:{
           keyPath: [`all.toogles.titleBox`],
-          value: [`false`]
+          value: [false]
         }})]
  , trigger: 'on press'
 }})],            childrenItems:[(...args:any) => <Elements.Text pass={{
