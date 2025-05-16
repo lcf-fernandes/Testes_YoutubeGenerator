@@ -157,8 +157,7 @@ fontSize: "16px",
               }
               ],
 
-            functions:[()=>{}],            childrenItems:[
-        (...args:any) => <Elements.Text pass={{
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
           ],
@@ -175,19 +174,6 @@ color: "#c4302b",
 
           args,
 
-        }}/>, (...args:any) => <Elements.IptTxtEdit pass={{
-          propsArray: [{}],
-
-          stylesArray: [`{
-borderBottomWidth: "1px,
-borderColor: "#c4302b",
-}`],
-
-          path: [" "],
-
-          funcsArray: [() => {}],
-
-          args,
         }}/>],
 
             args,
