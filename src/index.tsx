@@ -350,14 +350,9 @@ color: "#c4302b",
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
 
-            styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],
+            styles:[`{
+flexDirection: "row",
+}`],
 
             functions:[async (...args) =>
  functions.funcGroup({ args, pass:{
@@ -381,25 +376,22 @@ color: "#c4302b",
 
           args,
 
-        }}/>, (...args:any) => <Elements.IptTxtEdit pass={{
-          propsArray: [{}],
+        }}/>, 
 
-          stylesArray: [{
-                color: 'black',
-                fontSize: 14,
-                // fontSize: '20px',<= #ATTENTION: Native ERROR! No string!
-              }],
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
 
-          path: [" "],
+            styles:[`{
+width: "5px",
+height: "5px",
+borderWidth: "1px",
+}`],
 
-          funcsArray: [async (...args) =>
-        functions.setVar({ args, pass:{
-          keyPath: [`all.inputs.title`],
-          value: [`$arg_callback`]
-        }})],
+            functions:[()=>{}],            childrenItems:[() =><></>],
 
-          args,
-        }}/>],
+            args,
+          }}/>
+        ],
 
             args,
           }}/>
