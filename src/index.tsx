@@ -42,7 +42,7 @@
 
             styles:[`{
   flexDirection: "row",
-  backgroundColor: "#0064fe",
+  backgroundColor: "#c4302b",
   alignItems: "center",
   width: "100%",
 }`],
