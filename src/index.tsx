@@ -352,6 +352,8 @@ color: "#c4302b",
 
             styles:[`{
 flexDirection: "row",
+alignItems: "center",
+justifyContent: "center",
 }`],
 
             functions:[async (...args) =>
