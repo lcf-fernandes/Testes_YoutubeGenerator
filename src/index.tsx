@@ -422,7 +422,8 @@ borderWidth: "1px",
 , 
 'name': "Name:", 
 'dataToSet': {name: "Carlos", phone: "1111"}, 'toogles': { 
-'titleBox': true, 'hashtagBox': true } 
+'titleBox': true, 
+'hashtagBox': true, 'hashCheckBox': true } 
  } 
  
 } 
