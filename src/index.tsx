@@ -358,7 +358,7 @@ justifyContent: "center",
 
             functions:[async (...args) =>
  functions.funcGroup({ args, pass:{
- arrFunctions: [() =>"all.toogles.hashtagBox"]
+ arrFunctions: [() =>"all.toogles.hashtagBoxChecked"]
  , trigger: 'on listen'
 }})],            childrenItems:[
         (...args:any) => <Elements.Text pass={{
@@ -501,7 +501,8 @@ borderWidth: "1px",
 'name': "Name:", 
 'dataToSet': {name: "Carlos", phone: "1111"}, 'toogles': { 
 'titleBox': true, 
-'hashtagBox': true, 'hashCheckBox': true } 
+'hashtagBox': true, 
+'hashCheckBox': true, 'hashtagBoxChecked': false } 
  } 
  
 } 
