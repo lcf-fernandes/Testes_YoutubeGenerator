@@ -387,7 +387,15 @@ height: "5px",
 borderWidth: "1px",
 }`],
 
-            functions:[()=>{}],            childrenItems:[() =><></>],
+            functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [`all.toogles.hashCheckBox`],
+          value: [false]
+        }})]
+ , trigger: 'on press'
+}})],            childrenItems:[() =><></>],
 
             args,
           }}/>
