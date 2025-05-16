@@ -282,7 +282,7 @@ color: "#c4302b",
           keyPath: [`all.toogles.titleBox`],
           value: [`false`]
         }})]
- , trigger: 'on init'
+ , trigger: 'on press'
 }})],            childrenItems:[(...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
