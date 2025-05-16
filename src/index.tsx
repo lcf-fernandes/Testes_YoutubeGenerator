@@ -184,12 +184,12 @@ color: "#c4302b",
                 // fontSize: '20px',<= #ATTENTION: Native ERROR! No string!
               }],
 
-          path: [`temp.tema`],
+          path: [" "],
 
           funcsArray: [async (...args) =>
         functions.setVar({ args, pass:{
           keyPath: [`tema`],
-          value: [`temp.tema`]
+          value: [`$arg_callback`]
         }})],
 
           args,
