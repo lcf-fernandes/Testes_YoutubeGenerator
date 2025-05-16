@@ -358,7 +358,7 @@ justifyContent: "center",
 
             functions:[async (...args) =>
  functions.funcGroup({ args, pass:{
- arrFunctions: [() =>"all.toogles.hashtagBoxChecked"]
+ arrFunctions: [() =>"all.toogles.hashtagBox"]
  , trigger: 'on listen'
 }})],            childrenItems:[
         (...args:any) => <Elements.Text pass={{
