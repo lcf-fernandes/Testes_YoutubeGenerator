@@ -551,15 +551,11 @@ color: "#c4302b",
     (...args:any) => <Elements.ImageBox pass={{
       elementsProperties:[{}],
 
-      styles:[
-              {
-                height: "50px",
-                width: "80px",
-                backgroundColor: "#FDFDFD",
-                borderWidth: 2,
-                borderColor: "#EEE"
-              }
-              ],
+      styles:[{
+witdth: "60px",
+height: "40px",
+borderRadius: "15px",
+}],
 
       URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FbtnYoutube.png?alt=media&token=135ca94e-c679-4506-8d1a-f2c1fe509b6a`],
 
