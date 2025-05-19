@@ -425,6 +425,7 @@ borderWidth: "1px",
 width: "15px",
 height: "15px",
 borderWidth: "1px",
+alignItems: "center",
 }`],
 
             functions:[async (...args) =>
