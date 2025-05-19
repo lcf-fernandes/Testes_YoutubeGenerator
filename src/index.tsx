@@ -461,9 +461,9 @@ justifyContent: "center",
 </svg>
       `,
 
-      altura: "15px",
+      altura: "20px",
 
-      largura: "15px",
+      largura: "20px",
 
       preenchimento: ['black'],
 
