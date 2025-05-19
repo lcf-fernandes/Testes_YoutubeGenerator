@@ -404,7 +404,12 @@ height: "15px",
 borderWidth: "1px",
 }`],
 
-            functions:[async (...args) =>
+            functions:[
+        async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [() =>"all.toogles.hashCheckBox"]
+ , trigger: 'on listen'
+}}), async (...args) =>
  functions.funcGroup({ args, pass:{
  arrFunctions: [async (...args) =>
         functions.setVar({ args, pass:{
@@ -429,7 +434,12 @@ alignItems: "center",
 justifyContent: "center",
 }`],
 
-            functions:[async (...args) =>
+            functions:[
+        async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [() =>"all.toogles.hashtagBoxChecked"]
+ , trigger: 'on listen'
+}}), async (...args) =>
  functions.funcGroup({ args, pass:{
  arrFunctions: [async (...args) =>
         functions.setVar({ args, pass:{
