@@ -409,12 +409,21 @@ borderWidth: "1px",
  functions.funcGroup({ args, pass:{
  arrFunctions: [() =>"all.toogles.hashCheckBox"]
  , trigger: 'on listen'
-}}), async (...args) =>
+}}), 
+        async (...args) =>
  functions.funcGroup({ args, pass:{
  arrFunctions: [async (...args) =>
         functions.setVar({ args, pass:{
           keyPath: [`all.toogles.hashCheckBox`],
           value: [false]
+        }})]
+ , trigger: 'on press'
+}}), async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [`all.toogles.hashtagBoxChecked`],
+          value: [true]
         }})]
  , trigger: 'on press'
 }})],            childrenItems:[() =><></>],
