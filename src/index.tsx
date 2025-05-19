@@ -554,7 +554,7 @@ color: "#c4302b",
       styles:[{
 witdth: "20px",
 height: "15px",
-borderRadius: "15px",
+borderRadius: "5px",
 }],
 
       URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FbtnYoutube.png?alt=media&token=135ca94e-c679-4506-8d1a-f2c1fe509b6a`],
