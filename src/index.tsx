@@ -426,6 +426,7 @@ width: "15px",
 height: "15px",
 borderWidth: "1px",
 alignItems: "center",
+justifyContent: "center",
 }`],
 
             functions:[async (...args) =>
