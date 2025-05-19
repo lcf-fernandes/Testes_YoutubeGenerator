@@ -281,6 +281,20 @@ color: "#c4302b",
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
 
+            styles:[`{
+height: "10px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
             styles:[
               {
                 backgroundColor: 'white',
@@ -511,7 +525,6 @@ justifyContent: "center",
             args,
           }}/>
         , 
-        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -584,19 +597,6 @@ color: "#c4302b",
             args,
           }}/>
         ],
-
-            args,
-          }}/>
-        , 
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:['{}'],
-
-            styles:[`{
-height: "10px",
-}`],
-
-            functions:[()=>{}],            childrenItems:[() =><></>],
 
             args,
           }}/>
