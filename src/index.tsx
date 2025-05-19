@@ -552,7 +552,6 @@ color: "#c4302b",
       elementsProperties:[{}],
 
       styles:[{
-witdth: "30%",
 borderRadius: "5px",
 }],
 
