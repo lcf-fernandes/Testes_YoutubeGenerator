@@ -552,8 +552,8 @@ color: "#c4302b",
       elementsProperties:[{}],
 
       styles:[{
-witdth: "60px",
-height: "40px",
+witdth: "30px",
+height: "20px",
 borderRadius: "15px",
 }],
 
